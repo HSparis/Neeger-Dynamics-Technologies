@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web", "1 - Web", "{2A14
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B4F78C8E-5C84-4464-AF7C-3CE280905E62}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Model", "3 - Model", "{2E450BF4-F0BC-4903-A1AB-3A93D03D9448}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{2E450BF4-F0BC-4903-A1AB-3A93D03D9448}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{2D2C237B-E6C5-413F-A856-FE0F77A767FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neeger Dynamics e Technologies.application", "Neeger Dynamics e Technologies.application\Neeger Dynamics e Technologies.application.csproj", "{AC99951D-068C-4781-AE87-ADA5C8A7D5AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neeger Dynamics e Technologies.application", "Neeger Dynamics e Technologies.application\Neeger Dynamics e Technologies.application.csproj", "{AC99951D-068C-4781-AE87-ADA5C8A7D5AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neeger Dunamics e Technologies.Domain", "Neeger Dunamics e Technologies.Domain\Neeger Dunamics e Technologies.Domain.csproj", "{1B3B2F0C-B729-4D9D-8139-E3BDA3E83583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neeger Dynamics e Technologies.Domain", "Neeger Dunamics e Technologies.Domain\Neeger Dynamics e Technologies.Domain.csproj", "{1B3B2F0C-B729-4D9D-8139-E3BDA3E83583}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neeger Dunamics e Technologies.Infra", "Neeger Dunamics e Technologies.Infra\Neeger Dunamics e Technologies.Infra.csproj", "{2CEC7967-4C0D-40EC-8476-E158E990BC86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neeger Dynamics e Technologies.Data", "Neeger Dunamics e Technologies.Infra\Neeger Dynamics e Technologies.Data.csproj", "{2CEC7967-4C0D-40EC-8476-E158E990BC86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

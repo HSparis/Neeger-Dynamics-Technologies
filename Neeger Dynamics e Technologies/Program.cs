@@ -1,6 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using Neeger_Dynamics_e_Technologies.Data.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<NeegerContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
+
 
 builder.Services.AddControllersWithViews();
 
@@ -25,3 +34,17 @@ app.MapControllerRoute(
 app.MapFallbackToFile("index.html"); ;
 
 app.Run();
+//public class Startup
+//{
+//    public IConfiguration Configuration { get; }
+
+//    public void ConfigureServices(IServiceCollection services)
+//        => services.AddDbContext<NeegerContext>(gs => gs.UseSqlServer(Configuration.GetConnectionString("NeegerDB")).EnableSensitiveDataLogging());
+
+
+//    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+//    {
+//    }
+
+
+//}
